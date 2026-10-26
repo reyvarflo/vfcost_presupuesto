@@ -1,0 +1,53 @@
+name: Compilar iOS (iPhone) en la Nube - VF COST Pro
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch: # Permite ejecutar la compilación manualmente con un clic desde la web de GitHub
+
+jobs:
+  build-ios:
+    name: Compilación de VF COST Pro para iPhone
+    runs-on: macos-14 # Mac M2 en la nube con Xcode preinstalado
+
+    steps:
+      - name: Descargar Código Fuente
+        uses: actions/checkout@v4
+
+      - name: Configurar Flutter SDK
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Verificar Versión de Flutter y Xcode
+        run: |
+          flutter --version
+          xcodebuild -version
+
+      - name: Descargar Paquetes y Dependencias
+        run: flutter pub get
+
+      - name: Ejecutar Tests Unitarios (27 tests de cálculo y presupuesto)
+        run: flutter test
+
+      - name: Compilar Aplicación iOS (Release)
+        run: |
+          flutter build ios --release --no-codesign
+
+      - name: Empaquetar como Instalador .IPA para iPhone
+        run: |
+          mkdir -p Payload
+          cp -r build/ios/iphoneos/Runner.app Payload/
+          zip -r -9 VFCOST_Pro_iOS.ipa Payload
+          echo "Tamaño del archivo IPA generado:"
+          ls -lh VFCOST_Pro_iOS.ipa
+
+      - name: Publicar Instalador .IPA como Artefacto Descargable
+        uses: actions/upload-artifact@v4
+        with:
+          name: VFCOST_Pro_iPhone_IPA
+          path: VFCOST_Pro_iOS.ipa
+          retention-days: 30

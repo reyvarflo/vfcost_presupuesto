@@ -1,0 +1,2167 @@
+{
+  "proyecto": {
+    "codigo": "PR0000000017",
+    "nombre": "IOARR - REHABILITACION DE LA PLAZA BOLOGNESI DE LA LOCALIDAD DE REQUENA, DISTRITO DE REQUENA, PROVINCIA DE REQUENA -  DEPARTAMENTO LORETO",
+    "cliente": "MUNICIPALIDAD PROVINCIAL DE REQUENA",
+    "ubicacion": "LORETO",
+    "moneda": "PEN",
+    "fecha": "2026-01-01",
+    "jornada": 8.0
+  },
+  "partidas": [
+    {
+      "item": "",
+      "descripcion": "SUBPRESUPUESTO: VALOR REFERENCIAL",
+      "es_titulo": true,
+      "unidad": "",
+      "metrado": 0.0,
+      "precio_unitario": 0.0
+    },
+    {
+      "item": "1.1",
+      "descripcion": "OBRAS PROVISIONALES, TRABAJOS PRELIMINARES, SEGURIDAD Y SALUD",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.1.1",
+      "descripcion": "OBRAS PROVISIONALES Y TRABAJOS PRELIMINARES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.1.1.1",
+      "descripcion": "CONSTRUCCIONES PROVISIONALES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.1.1.1.1",
+      "descripcion": "CARTEL DE IDENTIOFICACION DE LA OBRA DE 1.80 x 2.40 M",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 1.0,
+      "precio_unitario": 420.22,
+      "apu": {
+        "rendimiento": 4.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 2.0,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 2.0,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CLAVOS DE 2\" A 4\"",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.22,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA COPAIBA O SIMILAR",
+            "unidad": "p2",
+            "cuadrilla": 0.0,
+            "cantidad": 8.0,
+            "precio": 1.4
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "SHUNGO DE 5\" (HUACAPU o QUINILLA)",
+            "unidad": "m",
+            "cuadrilla": 0.0,
+            "cantidad": 7.5,
+            "precio": 10.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "BANNER DE OBRA DE 1.80 X 2.40",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 250.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 3.0,
+            "precio": 80.4
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.4.1",
+      "descripcion": "DEMOLICION DE ESTRUCTURAS DE MORTERO ARMADO Con Herramientas Manuales",
+      "es_titulo": false,
+      "unidad": "M3.",
+      "metrado": 0.96,
+      "precio_unitario": 170.95,
+      "apu": {
+        "rendimiento": 0.8,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 10.0,
+            "precio": 16.76
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 167.6
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.2.1",
+      "descripcion": "LIMPIEZA DE TERRENO MANUAL",
+      "es_titulo": false,
+      "unidad": "m²",
+      "metrado": 448.0,
+      "precio_unitario": 1.37,
+      "apu": {
+        "rendimiento": 100.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.08,
+            "precio": 16.76
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 1.34
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.3.1",
+      "descripcion": "DESMONTAJE DE POSTE METALICO",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 4.0,
+      "precio_unitario": 225.5,
+      "apu": {
+        "rendimiento": 5.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 2.0,
+            "cantidad": 3.2,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 2.0,
+            "cantidad": 3.2,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 3.0,
+            "cantidad": 4.8,
+            "precio": 16.76
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 5.0,
+            "precio": 214.76
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.5.1",
+      "descripcion": "TRANSPORTE DE EQUIPOS Y MATERIALES",
+      "es_titulo": false,
+      "unidad": "ton",
+      "metrado": 1.0,
+      "precio_unitario": 80.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "TRANSPORTE DE EQUIPOS Y HERRAMIENTAS",
+            "unidad": "glb",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 80.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.6.1",
+      "descripcion": "TRAZO NIVEL Y REPLANTEO, en el area total del proyecto.",
+      "es_titulo": false,
+      "unidad": "m²",
+      "metrado": 316.52,
+      "precio_unitario": 0.7,
+      "apu": {
+        "rendimiento": 500.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.016,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 0.1,
+            "cantidad": 0.0016,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.016,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA CORRIENTE CEPILLADA",
+            "unidad": "p2",
+            "cuadrilla": 0.0,
+            "cantidad": 0.01,
+            "precio": 2.2
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 0.02,
+            "precio": 0.68
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.7.1",
+      "descripcion": "ELABORACION, IMPLENTACION Y ADMINISTRACION DEL PLAN DE SEGURIDAD Y SALUD EN EL TRABAJO",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.7.1.1",
+      "descripcion": "EQUIPOS DE PROTECCION INDIVIDUAL (EP)",
+      "es_titulo": false,
+      "unidad": "gbl",
+      "metrado": 1.0,
+      "precio_unitario": 6262.5,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "PROTECTORES DE OIDOS TIPO TATON",
+            "unidad": "pza",
+            "cuadrilla": 0.0,
+            "cantidad": 15.0,
+            "precio": 2.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "PROTECCION NARIZ (MASCARA) CON FILTRO",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 15.0,
+            "precio": 15.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "UNIFORME DE PERSONAL DE OBRA",
+            "unidad": "pza",
+            "cuadrilla": 0.0,
+            "cantidad": 15.0,
+            "precio": 295.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "LENTES DE PROTECCION DE PLASTICO",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 15.0,
+            "precio": 10.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CASCO DE PROTECCION",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 15.0,
+            "precio": 15.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "GUANTES DE CUERO",
+            "unidad": "par",
+            "cuadrilla": 0.0,
+            "cantidad": 15.0,
+            "precio": 10.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "BOTAS PUNTA DE ACERO",
+            "unidad": "par",
+            "cuadrilla": 0.0,
+            "cantidad": 15.0,
+            "precio": 50.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CHALECO DE TRABAJO",
+            "unidad": "pza",
+            "cuadrilla": 0.0,
+            "cantidad": 15.0,
+            "precio": 20.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.8.1",
+      "descripcion": "EXCAVACIONES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.8.1.1",
+      "descripcion": "EXCAVACION MANUAL DE ZANJA PARA BASE DE TACHO DE BASURAS",
+      "es_titulo": false,
+      "unidad": "m³",
+      "metrado": 0.32,
+      "precio_unitario": 45.58,
+      "apu": {
+        "rendimiento": 3.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 2.6667,
+            "precio": 16.76
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 44.69
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.8.2.1",
+      "descripcion": "NIVELACION REGLADO Y APISONADO MANUAL para veredas y martillos",
+      "es_titulo": false,
+      "unidad": "m²",
+      "metrado": 316.52,
+      "precio_unitario": 2.19,
+      "apu": {
+        "rendimiento": 150.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.0533,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.0533,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CLAVOS DE 2\" A 4\"",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.01,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "REGLA DE MADERA",
+            "unidad": "p2",
+            "cuadrilla": 0.0,
+            "cantidad": 0.16,
+            "precio": 1.2
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 3.0,
+            "precio": 1.88
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.1",
+      "descripcion": "BANCA DE MORTERO",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.9.1.1",
+      "descripcion": "MORTERO f`c=175 Kg/cm2",
+      "es_titulo": false,
+      "unidad": "M3.",
+      "metrado": 0.58,
+      "precio_unitario": 550.02,
+      "apu": {
+        "rendimiento": 10.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 2.0,
+            "cantidad": 1.6,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.8,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 8.0,
+            "cantidad": 6.4,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ARENA",
+            "unidad": "m³",
+            "cuadrilla": 0.0,
+            "cantidad": 1.2,
+            "precio": 50.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "AGUA",
+            "unidad": "M3.",
+            "cuadrilla": 0.0,
+            "cantidad": 0.25,
+            "precio": 5.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CEMENTO PORTLAND TIPO I",
+            "unidad": "bls",
+            "cuadrilla": 0.0,
+            "cantidad": 10.0,
+            "precio": 31.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 159.58
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "MEZCLADORA DE  9 P3 (trompo)",
+            "unidad": "hm",
+            "cuadrilla": 1.0,
+            "cantidad": 0.8,
+            "precio": 20.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.2.1",
+      "descripcion": "MORTERO f'c=175 Kg/cm2",
+      "es_titulo": false,
+      "unidad": "M3.",
+      "metrado": 0.32,
+      "precio_unitario": 524.27,
+      "apu": {
+        "rendimiento": 12.5,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 3.0,
+            "cantidad": 1.92,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.64,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 8.0,
+            "cantidad": 5.12,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ARENA",
+            "unidad": "m³",
+            "cuadrilla": 0.0,
+            "cantidad": 1.2,
+            "precio": 50.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "AGUA",
+            "unidad": "M3.",
+            "cuadrilla": 0.0,
+            "cantidad": 0.184,
+            "precio": 5.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CEMENTO PORTLAND TIPO I",
+            "unidad": "bls",
+            "cuadrilla": 0.0,
+            "cantidad": 10.0,
+            "precio": 31.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 3.0,
+            "precio": 142.67
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "MEZCLADORA DE  9 P3 (trompo)",
+            "unidad": "hm",
+            "cuadrilla": 0.5,
+            "cantidad": 0.32,
+            "precio": 20.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.3.1",
+      "descripcion": "MORTERO f'c=175 Kg/cm2",
+      "es_titulo": false,
+      "unidad": "M3.",
+      "metrado": 0.16,
+      "precio_unitario": 524.27,
+      "apu": {
+        "rendimiento": 12.5,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 3.0,
+            "cantidad": 1.92,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.64,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 8.0,
+            "cantidad": 5.12,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ARENA",
+            "unidad": "m³",
+            "cuadrilla": 0.0,
+            "cantidad": 1.2,
+            "precio": 50.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "AGUA",
+            "unidad": "M3.",
+            "cuadrilla": 0.0,
+            "cantidad": 0.184,
+            "precio": 5.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CEMENTO PORTLAND TIPO I",
+            "unidad": "bls",
+            "cuadrilla": 0.0,
+            "cantidad": 10.0,
+            "precio": 31.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 3.0,
+            "precio": 142.67
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "MEZCLADORA DE  9 P3 (trompo)",
+            "unidad": "hm",
+            "cuadrilla": 0.5,
+            "cantidad": 0.32,
+            "precio": 20.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.4.1",
+      "descripcion": "CERCO PERIMETRICO DE MADERA ASERRADA 3\" x 1/2\" X 75 cm.",
+      "es_titulo": false,
+      "unidad": "m²",
+      "metrado": 62.84,
+      "precio_unitario": 25.04,
+      "apu": {
+        "rendimiento": 30.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 2.0,
+            "cantidad": 0.5333,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CLAVOS DE 2\" A 4\"",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.0315,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA TORNILLO O SIMILAR",
+            "unidad": "p2",
+            "cuadrilla": 0.0,
+            "cantidad": 3.1,
+            "precio": 1.4
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 20.13
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.10.1",
+      "descripcion": "SEMBRADO DE PLANTAS ORNAMENTALES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 20.0,
+      "precio_unitario": 85.47,
+      "apu": {
+        "rendimiento": 50.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 2.0,
+            "cantidad": 0.32,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "PLANTONES DE ORNAMENTALES",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 80.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 5.36
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.11.1",
+      "descripcion": "PINTURA ESMALTE EN MURETE DE BANCAS; 2 manos.",
+      "es_titulo": false,
+      "unidad": "M2.",
+      "metrado": 9.22,
+      "precio_unitario": 17.01,
+      "apu": {
+        "rendimiento": 30.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "LIJA PARA FIERRO 100-1",
+            "unidad": "plg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.035,
+            "precio": 1.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA CORRIENTE (CATAHUA O SIMILAR)  andamio",
+            "unidad": "P2.",
+            "cuadrilla": 0.0,
+            "cantidad": 0.215,
+            "precio": 1.4
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "THINER",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.025,
+            "precio": 18.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "PINTURA ESMALTE DE PRIMERA CALIDAD",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.055,
+            "precio": 90.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "IMPRIMANTE 5 Kilogramos",
+            "unidad": "bls",
+            "cuadrilla": 0.0,
+            "cantidad": 0.055,
+            "precio": 6.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 10.72
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.12.1",
+      "descripcion": "BUSTO DE BOLOGNESI",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 1.0,
+      "precio_unitario": 4212.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "Perno C/Tuerca 1/2\"x3\"",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 6.0,
+            "precio": 2.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "BUSTO DE BOLOGNESI",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 4200.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.1.1.1.2",
+      "descripcion": "SERVICIOS HIGIENICOS PROVISIONALES",
+      "es_titulo": false,
+      "unidad": "mes",
+      "metrado": 0.5,
+      "precio_unitario": 250.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "SERVICIOS HIGIENICOS",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 250.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.2",
+      "descripcion": "TRABAJOS PRELIMINARES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.3.2",
+      "descripcion": "DESMONTAJE DE CONTENEDORES DE BASURA",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 2.0,
+      "precio_unitario": 6.08,
+      "apu": {
+        "rendimiento": 45.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 2.0,
+            "cantidad": 0.3556,
+            "precio": 16.76
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 5.96
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.7.1.2",
+      "descripcion": "EQUIPOS DE PROTECCION COLECTIVA",
+      "es_titulo": false,
+      "unidad": "gbl",
+      "metrado": 1.0,
+      "precio_unitario": 1825.96,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 0.0,
+            "cantidad": 9.0,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CINTA SEÑALIZADORA",
+            "unidad": "rll",
+            "cuadrilla": 0.0,
+            "cantidad": 5.0,
+            "precio": 280.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "SEÑALES INTERNA Y EXTERNA",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 35.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "Cono de señalización ",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 6.0,
+            "precio": 30.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.8.1.2",
+      "descripcion": "EXCAVACION MANUAL DE ZANJA PARA BANCAS DE CONCRETO",
+      "es_titulo": false,
+      "unidad": "m³",
+      "metrado": 0.29,
+      "precio_unitario": 45.58,
+      "apu": {
+        "rendimiento": 3.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 2.6667,
+            "precio": 16.76
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 44.69
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.8.2",
+      "descripcion": "NIVELACIONES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.9.1.2",
+      "descripcion": "ACERO CORRUGADO Ø 3/8\" fy=4200 kg/cm2 incluye colocado + 5% de desperdicio",
+      "es_titulo": false,
+      "unidad": "kg",
+      "metrado": 41.1,
+      "precio_unitario": 7.17,
+      "apu": {
+        "rendimiento": 120.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.5,
+            "cantidad": 0.1,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.0667,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ALAMBRE NEGRO N°16",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.05,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ACERO CORRUGADO Fy=4200 Kg/Cm2 Grado 60",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 1.05,
+            "precio": 3.15
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 0.04,
+            "precio": 3.58
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.2",
+      "descripcion": "BASE PARA CONTENEDORES DE BASURA",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.9.2.2",
+      "descripcion": "COLOCACION DE CONTENEDORES DE BASURA",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 5.0,
+      "precio_unitario": 639.38,
+      "apu": {
+        "rendimiento": 5.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 1.6,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "Contenedor de Basura Aluminizada",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 600.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 5.0,
+            "precio": 37.5
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.3.2",
+      "descripcion": "ENCOFRADO Y DESENCOFRADO",
+      "es_titulo": false,
+      "unidad": "M2.",
+      "metrado": 0.65,
+      "precio_unitario": 23.93,
+      "apu": {
+        "rendimiento": 15.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.5333,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.5333,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ALAMBRE NEGRO RECOCIDO # 8",
+            "unidad": "kg",
+            "cuadrilla": 1.0,
+            "cantidad": 0.1,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CLAVOS Fo No C/C 3\"",
+            "unidad": "kg",
+            "cuadrilla": 1.0,
+            "cantidad": 0.1,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA CATAHUA ACABADA",
+            "unidad": "p2",
+            "cuadrilla": 0.0,
+            "cantidad": 3.53,
+            "precio": 0.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 22.38
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.10.2",
+      "descripcion": "SEMBRADO DE GRASS POR BLOQUE",
+      "es_titulo": false,
+      "unidad": "M2.",
+      "metrado": 72.68,
+      "precio_unitario": 29.47,
+      "apu": {
+        "rendimiento": 50.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 2.0,
+            "cantidad": 0.32,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ABONO ORGANICO",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 8.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "SEMBRADO DE GRASS NATURAL",
+            "unidad": "m²",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 8.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 5.36
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.11.2",
+      "descripcion": "PINTURA ESMALTE EN PEDESTAL; 2 manos.",
+      "es_titulo": false,
+      "unidad": "M2.",
+      "metrado": 7.04,
+      "precio_unitario": 17.01,
+      "apu": {
+        "rendimiento": 30.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "LIJA PARA FIERRO 100-1",
+            "unidad": "plg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.035,
+            "precio": 1.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA CORRIENTE (CATAHUA O SIMILAR)  andamio",
+            "unidad": "P2.",
+            "cuadrilla": 0.0,
+            "cantidad": 0.215,
+            "precio": 1.4
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "THINER",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.025,
+            "precio": 18.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "PINTURA ESMALTE DE PRIMERA CALIDAD",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.055,
+            "precio": 90.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "IMPRIMANTE 5 Kilogramos",
+            "unidad": "bls",
+            "cuadrilla": 0.0,
+            "cantidad": 0.055,
+            "precio": 6.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 10.72
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.12.2",
+      "descripcion": "DRIZAS PARA ASTA DE BANDERA",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 1.0,
+      "precio_unitario": 40.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "DRIZA PARA ASTA DE BANDERA",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 40.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.3",
+      "descripcion": "DESMONTAJES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.3.3",
+      "descripcion": "DESMONTAJE DE BUSTO DE BOLOGNESI",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 1.0,
+      "precio_unitario": 9.12,
+      "apu": {
+        "rendimiento": 30.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 2.0,
+            "cantidad": 0.5333,
+            "precio": 16.76
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 8.94
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.7.1.3",
+      "descripcion": "SEÑALIZACION TEMPORAL DE SEGURIDAD",
+      "es_titulo": false,
+      "unidad": "gbl",
+      "metrado": 1.0,
+      "precio_unitario": 10.31,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 0.0,
+            "cantidad": 0.16,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "SEÑALES DE SEGURIDAD",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 7.5
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "Herramientas",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 5.0,
+            "precio": 2.68
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.1.3",
+      "descripcion": "ENCOFRADO Y DESENCOFRADO",
+      "es_titulo": false,
+      "unidad": "M2.",
+      "metrado": 17.66,
+      "precio_unitario": 23.93,
+      "apu": {
+        "rendimiento": 15.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.5333,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OFICIAL",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.5333,
+            "precio": 18.53
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ALAMBRE NEGRO RECOCIDO # 8",
+            "unidad": "kg",
+            "cuadrilla": 1.0,
+            "cantidad": 0.1,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CLAVOS Fo No C/C 3\"",
+            "unidad": "kg",
+            "cuadrilla": 1.0,
+            "cantidad": 0.1,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA CATAHUA ACABADA",
+            "unidad": "p2",
+            "cuadrilla": 0.0,
+            "cantidad": 3.53,
+            "precio": 0.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 22.38
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.3",
+      "descripcion": "REPARACION DE PEDESTAL",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.11.3",
+      "descripcion": "PINTURA ANTICORROSIVA Y ESMALTE EN FºG° EN ASTA",
+      "es_titulo": false,
+      "unidad": "M2.",
+      "metrado": 1.92,
+      "precio_unitario": 22.41,
+      "apu": {
+        "rendimiento": 25.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.32,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.32,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "LIJA PARA FIERRO 100-1",
+            "unidad": "plg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.035,
+            "precio": 1.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA CORRIENTE (CATAHUA O SIMILAR)  andamio",
+            "unidad": "P2.",
+            "cuadrilla": 0.0,
+            "cantidad": 0.15,
+            "precio": 1.4
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "PINTURA ESMALTE ",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.067,
+            "precio": 38.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "THINER",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.025,
+            "precio": 18.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "PINTURA ANTICORROSIVA",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.067,
+            "precio": 90.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 12.86
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.1.1.1.3",
+      "descripcion": "ALQUILER DE ALMACEN",
+      "es_titulo": false,
+      "unidad": "mes",
+      "metrado": 0.5,
+      "precio_unitario": 500.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ALQUILER DE OFICINA",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 500.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.4",
+      "descripcion": "DEMOLICIONES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.7.1.4",
+      "descripcion": "CAPACITACION EN SEGURIDAD Y SALUD",
+      "es_titulo": false,
+      "unidad": "gbl",
+      "metrado": 1.0,
+      "precio_unitario": 78.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ALQUILER DE PROYECTOS MULTIMEDIA",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 70.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "FOTOCOPIAS",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 40.0,
+            "precio": 0.2
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.1.4",
+      "descripcion": "TARRAJEO DE MUROS DE CONCRETO MEZC. C:A 1:5, E = 1.5 cm",
+      "es_titulo": false,
+      "unidad": "M2.",
+      "metrado": 18.43,
+      "precio_unitario": 29.05,
+      "apu": {
+        "rendimiento": 12.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.6667,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 0.666,
+            "cantidad": 0.444,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CLAVOS DE 4\"",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.02,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ARENA FINA",
+            "unidad": "M3.",
+            "cuadrilla": 0.0,
+            "cantidad": 0.016,
+            "precio": 50.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CEMENTO PORTLAND TIPO I",
+            "unidad": "bls",
+            "cuadrilla": 0.0,
+            "cantidad": 0.119,
+            "precio": 31.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "AGUA",
+            "unidad": "m³",
+            "cuadrilla": 0.0,
+            "cantidad": 0.004,
+            "precio": 5.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA CORRIENTE (CATAHUA O SIMILAR)  andamio",
+            "unidad": "P2.",
+            "cuadrilla": 0.0,
+            "cantidad": 0.46,
+            "precio": 1.4
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "REGLA DE MADERA",
+            "unidad": "p2",
+            "cuadrilla": 0.0,
+            "cantidad": 0.025,
+            "precio": 1.2
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 3.0,
+            "precio": 23.07
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.9.4",
+      "descripcion": "CERCO PARA JARDIN",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.11.4",
+      "descripcion": "PINTURA ESMALTE EN BASE PEDESTAL; 2 manos.",
+      "es_titulo": false,
+      "unidad": "M2.",
+      "metrado": 12.86,
+      "precio_unitario": 17.01,
+      "apu": {
+        "rendimiento": 30.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "LIJA PARA FIERRO 100-1",
+            "unidad": "plg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.035,
+            "precio": 1.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA CORRIENTE (CATAHUA O SIMILAR)  andamio",
+            "unidad": "P2.",
+            "cuadrilla": 0.0,
+            "cantidad": 0.215,
+            "precio": 1.4
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "THINER",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.025,
+            "precio": 18.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "PINTURA ESMALTE DE PRIMERA CALIDAD",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.055,
+            "precio": 90.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "IMPRIMANTE 5 Kilogramos",
+            "unidad": "bls",
+            "cuadrilla": 0.0,
+            "cantidad": 0.055,
+            "precio": 6.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 10.72
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.1.1.1.4",
+      "descripcion": "SUMINISTRO DE AGUA",
+      "es_titulo": false,
+      "unidad": "mes",
+      "metrado": 0.5,
+      "precio_unitario": 400.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": [
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ALQUILER DE SUMINISTRO DE AGUA",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 1.0,
+            "precio": 400.0
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.1.1.1.5",
+      "descripcion": "CERCO PERIMETRAL DE CALAMINA H=2.00m",
+      "es_titulo": false,
+      "unidad": "m",
+      "metrado": 75.0,
+      "precio_unitario": 139.98,
+      "apu": {
+        "rendimiento": 20.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 2.0,
+            "cantidad": 0.8,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 3.0,
+            "cantidad": 1.2,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CLAVOS CON CABEZA PROMEDIO",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.2,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA COPAIBA O SIMILAR",
+            "unidad": "p2",
+            "cuadrilla": 0.0,
+            "cantidad": 7.56,
+            "precio": 1.4
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "SHUNGO DE 5\" (HUACAPU o QUINILLA)",
+            "unidad": "m",
+            "cuadrilla": 0.0,
+            "cantidad": 6.0,
+            "precio": 10.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CALAMINA CORRUGADA DE  ZINC 0.83 x 1.80 m - 0.23 mm",
+            "unidad": "pln",
+            "cuadrilla": 0.0,
+            "cantidad": 1.25,
+            "precio": 22.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 5.0,
+            "precio": 38.86
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.5",
+      "descripcion": "TRANSPORTE DE EQUIPOS Y MATERIALES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.9.1.5",
+      "descripcion": "MADERA ASERRADA DE 2\" x 5\" x 1.80m TORNILLO O SIMILAR (Cepillada)",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 40.0,
+      "precio_unitario": 49.11,
+      "apu": {
+        "rendimiento": 30.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2667,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "CLAVOS DE 2\" A 4\"",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.3,
+            "precio": 5.5
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "MADERA TORNILLO CEPILLADA",
+            "unidad": "p2",
+            "cuadrilla": 0.0,
+            "cantidad": 5.42,
+            "precio": 2.2
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "ALQUITRAN COMO PRESERVANTE",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.15,
+            "precio": 30.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "PERNO DE 1/2'' X 3''",
+            "unidad": "und",
+            "cuadrilla": 0.0,
+            "cantidad": 10.0,
+            "precio": 2.0
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 3.0,
+            "precio": 10.72
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.11.5",
+      "descripcion": "PINTURA BARNIZ  PARA CERCO DE MADERA, 2 manos",
+      "es_titulo": false,
+      "unidad": "M2.",
+      "metrado": 12.96,
+      "precio_unitario": 11.39,
+      "apu": {
+        "rendimiento": 35.0,
+        "recursos": [
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "OPERARIO",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2286,
+            "precio": 23.44
+          },
+          {
+            "tipo": "MANO_DE_OBRA",
+            "descripcion": "PEON",
+            "unidad": "hh",
+            "cuadrilla": 1.0,
+            "cantidad": 0.2286,
+            "precio": 16.76
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "Waype industrial",
+            "unidad": "kg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.05,
+            "precio": 5.0
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "BARNIZ",
+            "unidad": "gln",
+            "cuadrilla": 0.0,
+            "cantidad": 0.055,
+            "precio": 29.41
+          },
+          {
+            "tipo": "MATERIAL",
+            "descripcion": "LIJA PARA MADERA 100-1",
+            "unidad": "plg",
+            "cuadrilla": 0.0,
+            "cantidad": 0.1,
+            "precio": 1.5
+          },
+          {
+            "tipo": "EQUIPO",
+            "descripcion": "HERRAMIENTAS MANUALES",
+            "unidad": "%mo",
+            "cuadrilla": 0.0,
+            "cantidad": 2.0,
+            "precio": 9.19
+          }
+        ]
+      }
+    },
+    {
+      "item": "1.6",
+      "descripcion": "TRAZO NIVELES Y REPLANTEO",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.7",
+      "descripcion": "SEGURIDAD Y SALUD ",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.8",
+      "descripcion": "MOVIMIENTO DE TIERRAS",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.9",
+      "descripcion": "OBRAS DE CONCRETO",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.10",
+      "descripcion": "AREAS VERDES",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.11",
+      "descripcion": "PINTURA",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    },
+    {
+      "item": "1.12",
+      "descripcion": "OTROS",
+      "es_titulo": false,
+      "unidad": "und",
+      "metrado": 0.0,
+      "precio_unitario": 0.0,
+      "apu": {
+        "rendimiento": 1.0,
+        "recursos": []
+      }
+    }
+  ]
+}

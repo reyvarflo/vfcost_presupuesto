@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # Motor Microsoft SQL Server para restaurar copias .S2K / .BAK
+  mssql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: s10_mssql_server
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "S10Password2026!"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+    volumes:
+      - mssql_data:/var/opt/mssql/data
+      - temp_backups:/tmp/s2k_uploads
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 'S10Password2026!' -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
+
+  # Backend REST API (FastAPI) para recibir .S2K y retornar JSON a la app móvil
+  api:
+    build: .
+    container_name: s10_converter_api
+    environment:
+      MSSQL_HOST: "mssql"
+      MSSQL_PORT: "1433"
+      MSSQL_USER: "sa"
+      MSSQL_PASSWORD: "S10Password2026!"
+      MSSQL_DATA_DIR: "/var/opt/mssql/data"
+      TEMP_UPLOAD_DIR: "/tmp/s2k_uploads"
+    ports:
+      - "8000:8000"
+    volumes:
+      - temp_backups:/tmp/s2k_uploads
+    depends_on:
+      mssql:
+        condition: service_healthy
+
+volumes:
+  mssql_data:
+  temp_backups:
